@@ -1,0 +1,15 @@
+using Microsoft.Owin;
+using Owin;
+
+[assembly: OwinStartup(typeof(SGI_LCDPService.Startup))]
+
+namespace SGI_LCDPService
+{
+    public partial class Startup
+    {
+        public void Configuration(IAppBuilder app)
+        {
+            ConfigureMobileApp(app);
+        }
+    }
+}
