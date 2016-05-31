@@ -1,4 +1,4 @@
 # sgi_lcdp
-App
-Login
-RegistroNC
+# App
+# Login
+# RegistroNC
