@@ -1,0 +1,27 @@
+using Xamarin.Forms;
+
+namespace MyFirstXamarin
+{
+    public class RegistroNC : ContentPage
+    {
+        public RegistroNC()
+        {
+            Content = new StackLayout
+            {
+                Spacing = 20,
+                Padding = 25,
+                VerticalOptions = LayoutOptions.Center,
+                Children =
+                    {
+                        new Entry {Placeholder="Nombres"},
+                        new Entry {Placeholder="Apellidos"},
+                        new Entry {Placeholder="E. Civil"},
+                        new Entry {Placeholder="Dirección"},
+                        new Entry {Placeholder="Distrito"},
+                        new Entry {Placeholder="Teléfono"},
+                        new Button {Text="Registrar",TextColor=Color.White,BackgroundColor=Color.FromHex("77d065")}
+                    }
+            };
+        }
+    }
+}
